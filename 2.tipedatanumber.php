@@ -15,6 +15,7 @@ var_dump(0b111111);
 echo "Underscore in number : "; //ini mempermudah pembacaan 
 var_dump(1_241_241_241);
 
+var_dump("Hello");
 
 //Tipe data FLOAT
 echo "Floating Point : ";

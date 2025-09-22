@@ -10,9 +10,12 @@ echo $nama;
 echo "Umur: \n";
 echo $age;
 echo"\n";
+
+
 //mengecek data apakah null (is_null)
-$universitas = 'Gunadarma';
+
 $universitas = NULL;
+$universitas = 'Gunadarma';
 
 $apakahNUll = is_null($universitas);
 var_dump($apakahNUll);
@@ -35,9 +38,10 @@ echo $apakahBervalue;
 
 //menghapus variabel (unset)
 $koneksi = false;
+var_dump(isset($koneksi)); //true (ada value)
 unset($koneksi);
-var_dump(isset($koneksi));
+var_dump(isset($koneksi));//false (ga ada value)
 
 
-?>
+
 

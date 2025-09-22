@@ -22,4 +22,8 @@ $nama = "Anto";
 $$nama = 'youtube';
 
 echo $$nama;
-echo $Anto; //jadi sama
+echo $Anto; //jadi sama\
+
+$angka1 = 22;
+$angka2 = 24;
+echo $angka1 + $angka2; //jadi 46
